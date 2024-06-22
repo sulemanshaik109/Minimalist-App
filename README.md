@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Minimalist Fire Fly App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and responsive web application built with React.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- Introduction
+- Features
+- Technologies Used
+- Installation
+- Usage
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Minimalist App is a responsive web application designed to provide a clean and minimal user experience. This project was bootstrapped with Create React App.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Reactjs Popup
+- Easy to navigate
+- Clean and minimal UI
+- Responsive design for desktop and mobile devices.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- React.js
+- Reactjs Popup
+- CSS for styling
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Demo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div style="text-align: center;">
+  <video style="max-width:80%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12);outline:none;" loop="true" autoplay="autoplay" controls="controls" muted>
+    <source src="https://res.cloudinary.com/dsbxrn2tj/video/upload/v1719086442/minimalist_fire_fly_app_wskj4g.mp4" type="video/mp4">
+  </video>
+</div>
+<br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+To run this project locally, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Clone the repository:
+   ```
+   git clone https://github.com/sulemanshaik109/Minimalist-Fire-Fly-App.git
+  ```
+- Install Dependencies
+  ```
+  npm install
+  ```
+- Run the app
+  ```
+  npm start
+  ```
+- Navigate to `http://localhost:3000` to view the application in the browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Resources
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<details>
+<summary>Figma Link</summary>
+<br/>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [https://www.figma.com/design/FTOQ8tQekjdjQDMyrr6bo8/Untitled?node-id=0-1&t=zLRiYi0Xt3Mgqcx0-1](https://www.figma.com/design/FTOQ8tQekjdjQDMyrr6bo8/Untitled?node-id=0-1&t=zLRiYi0Xt3Mgqcx0-1)
 
-## Learn More
+</details>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<details>
+<summary>Colors</summary>
+<br/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<div style="background-color: #000000; width: 150px; padding: 10px; color: white">Hex: #000000</div>
+<div style="background-color: #FE0000; width: 150px; padding: 10px; color: white">Hex: #FE0000</div>
+<div style="background-color: #F27121; width: 150px; padding: 10px; color: white">Hex: #F27121</div>
+<div style="background-color: #25A769; width: 150px; padding: 10px; color: black">Hex: #25A769</div>
+<div style="background-color: #ECE14C; width: 150px; padding: 10px; color: black">Hex: #ECE14C</div>
+<div style="background-color: #ffffff; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
+<div style="background-color: #1C1C1C33; width: 150px; padding: 10px; color: black">Hex: #1C1C1C33</div>
+<div style="background-color: #CECECE; width: 150px; padding: 10px; color: black">Hex: #CECECE</div>
+<div style="background-color: #3a3939; width: 150px; padding: 10px; color: black">Hex: #3a3939</div>
 
-### Code Splitting
+</details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Show Your Support
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Give a ⭐️ if you like this project!

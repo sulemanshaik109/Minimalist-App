@@ -20,11 +20,6 @@
     color: #000000;
 }
 
-.product-btn {
-    color: #ffffff;
-    background-color: #FE0000;
-}
-
 @media screen and (max-width: 567px) {
     .name {
         font-size: 16px;
