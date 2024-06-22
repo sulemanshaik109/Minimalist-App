@@ -10,7 +10,7 @@ const Banner = () => {
                 <h1 className="banner-heading">The choice is yours.
                     <br/>
                      Because they don’t have one.</h1>
-                <button className="view-btn" type="button">QUICK VIEW</button>
+                <button className="view-btn" type="button">Quick View</button>
             </div>
         </div>
     )

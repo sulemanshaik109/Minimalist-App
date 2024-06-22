@@ -1,0 +1,119 @@
+.modal {
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 80%;
+    width: 950px;
+    height: 60%;
+    margin: auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+}
+  
+  .close {
+    background: transparent;
+    border: none;
+    font-size: 42px;
+    float: right;
+    cursor: pointer;
+  }
+  
+  .popup-images {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .popup-large-img {
+    min-width: 50px;
+    max-width: 100%;
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+
+  .small-images-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .popup-small-img {
+    min-width: 50px;
+    max-width: 20%;
+    flex: 1 1 20%;
+  }
+
+  .product-btn {
+    color: #ffffff;
+    background-color: #FE0000;
+}
+
+.content {
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popup-heading {
+    font-size: 26px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0px;
+}
+
+.popup-price {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.horizontal-dotted-line {
+    border: none;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0) 20%, rgb(255, 1, 1) 80%);
+    background-size: 15px 1px;
+    background-repeat: repeat-x;
+    margin-top: 10px;
+}
+
+.popup-text {
+    font-size: 13px;
+    font-weight: 500;
+    color: #3a3939;
+    margin-bottom: 8px;
+}
+
+.description {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.contents {
+    padding-left: 15px;
+    margin: 0px;
+}
+
+@media screen and (max-width: 567px) {
+    .modal {
+        width: 500px;
+    }
+}
