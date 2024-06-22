@@ -1,0 +1,41 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer-decorator {
+    min-width: 10%;
+    max-width: 100%;
+    flex: 1 1 10%;
+}
+
+.footer-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #25A769;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-text {
+    font-family: 'Neue Metana', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.32px;
+    text-align: left;
+    color: #ECE14C;
+    margin: 5px 0px;
+}
+
+.icons-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}

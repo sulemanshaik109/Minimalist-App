@@ -1,0 +1,32 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border: 1px solid #CECECE;
+    width: 45%;
+}
+
+.product-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #000000;
+}
+
+.product-btn {
+    color: #ffffff;
+    background-color: #FE0000;
+}
+
+@media screen and (max-width: 567px) {
+    .name {
+        font-size: 16px;
+    }
+}
